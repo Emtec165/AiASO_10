@@ -128,5 +128,7 @@ public class Main {
         } catch (ArrayIndexOutOfBoundsException e){
             System.out.println("Device \"" + deviceToFind + "\" type don't exist in nested list.\n" + e);
         }
+
+        System.out.println(""); //repo change
     }
 }
